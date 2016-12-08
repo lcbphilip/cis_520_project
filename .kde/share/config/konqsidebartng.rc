@@ -1,0 +1,11 @@
+OpenViews[$d]
+ShowTabsLeft[$d]
+
+[$Version]
+update_info=konqsidebartng.upd:konqsidebartng_rc
+
+[filemanagement]
+ShowTabsLeft=true
+
+[webbrowsing]
+ShowTabsLeft=true

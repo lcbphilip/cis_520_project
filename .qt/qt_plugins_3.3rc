@@ -1,0 +1,18 @@
+[opt]
+kde3/lib64/kde3/plugins/styles/plastik.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T10:44:01^e
+
+[usr]
+lib/qt3/plugins/imageformats/libqjpeg.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/imageformats/libqjpeg.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+lib/qt3/plugins/imageformats/libqmng.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/imageformats/libqmng.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+lib/qt3/plugins/inputmethods/libqimsw-multi.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/inputmethods/libqimsw-multi.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+lib/qt3/plugins/inputmethods/libqimsw-none.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/inputmethods/libqimsw-none.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+lib/qt3/plugins/inputmethods/libqscim.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T13:03:35^e
+lib/qt3/plugins/inputmethods/libqsimple.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/inputmethods/libqsimple.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+lib/qt3/plugins/inputmethods/libqxim.lib64.so=30300^e3^ex86_64 Linux g++-4 full-config^e2008-12-03T09:52:05^e
+lib/qt3/plugins/inputmethods/libqxim.so=30300^e3^ei686 Linux g++-4 full-config^e2008-12-03T04:33:50^e
+

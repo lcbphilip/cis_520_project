@@ -1,0 +1,4 @@
+[main Settings]
+GraphMigrationRequired=false
+Port=1160
+Storage Dir[$e]=$HOME/.kde4/share/apps/nepomuk/repository/main/

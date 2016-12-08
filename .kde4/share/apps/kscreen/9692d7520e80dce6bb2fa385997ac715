@@ -1,0 +1,1 @@
+[ { "enabled" : true, "id" : "1a30db9c2e68fdf8074182a7aaa6823b", "metadata" : { "fullname" : "xrandr-DELL P2214H-KW14V45A2PNL", "name" : "DP-2" }, "mode" : { "refresh" : 60.0, "size" : { "height" : 1080, "width" : 1920 } }, "pos" : { "x" : 0, "y" : 0 }, "primary" : true, "rotation" : 1 } ]

@@ -1,0 +1,3 @@
+editor=/usr/local/bin/pico -t
+start_editor_offset=ON
+default_editor_format=%E +%N %F

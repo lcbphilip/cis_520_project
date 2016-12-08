@@ -1,0 +1,11 @@
+set imap_user = $LOGNAME 
+set spoolfile=imaps://$LOGNAME.mail.seas.upenn.edu/INBOX
+set folder=imaps://$LOGNAME.mail.seas.upenn.edu/~/Mail/
+
+set certificate_file=~/.mutt/certificates
+#aliases
+source ~/.mutt/aliases
+set alias_file=~/.mutt/aliases
+set editor="pico -t"
+# set up gpg
+source /usr/local/doc/mutt/samples/gpg.rc

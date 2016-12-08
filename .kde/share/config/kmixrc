@@ -1,0 +1,11 @@
+AllowDocking=true
+AutoStart=true
+Labels=true
+Menubar=true
+Orientation=Horizontal
+Position=320,307
+Size=640,409
+Tickmarks=true
+TrayVolumeControl=true
+ValueStyle=None
+startkdeRestore=true
