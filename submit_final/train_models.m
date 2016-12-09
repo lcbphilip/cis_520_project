@@ -14,3 +14,9 @@ save('models/svm.mat', 'svm');
 
 knn = knn_train(X_train, Y_train);
 save('models/knn.mat', 'knn');
+
+ens = ens_train(X_train, Y_train, tweets_train);
+save('models/ens.mat', 'ens');
+
+bag = bag_train(X_train, Y_train, tweets_train);
+save('models/bag.mat', 'bag');
