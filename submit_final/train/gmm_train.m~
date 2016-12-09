@@ -1,11 +1,15 @@
-function gmm_model = gmm_train(X_train, Y_train)
+function [gmm_model, priors] = gmm_train(X_train, Y_train)
 
 options = statset('MaxIter',500);
-dims = [20;50;100];
 num_clusters = 10;
+num_pc = 200;
+
+X_train_mean = mean(X_train);
+X_train_centered = X_train - repmat(X_train_mean, [size(X_train, 1), 1]);
+
+[X_train_coeff, X_train_score] = pca(X_train_centered, 'NumComponents', num_pc);
 
 GMMmodels = cell(2);
-accuracies = zeros(3,3);
 
 %%
 
@@ -19,6 +23,6 @@ for l=1:2
     'CovarianceType','diagonal','RegularizationValue',0.1^5,'Options',options);
 end
 
-gmm_model = GMMmodels
+gmm_model = GMMmodels;
 
 end
