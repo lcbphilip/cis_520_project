@@ -4,8 +4,9 @@ addpath ./train/
 pca = pca_train(X_train);
 save('models/pca.mat', 'pca');
 
-gmm = gmm_train(X_train, Y_train);
+[gmm, gmm_priors] = gmm_train(X_train, Y_train);
 save('models/gmm.mat', 'gmm');
+save('models/gmm_priors.mat', 'gmm_priors');
 
 svm = svm_train(X_train, Y_train);
 save('models/svm.mat', 'svm');
