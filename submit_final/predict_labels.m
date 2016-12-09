@@ -8,8 +8,8 @@ Y_hat_knn = knn_predict(word_counts);
 
 Y_hat_svm = svm_predict(word_counts);
 
-Y_hat_bag = bag_predict(bag_mat.bag, word_counts, raw_tweets);
+Y_hat_bag = bag_predict(word_counts, raw_tweets);
 
-Y_hat_ens = ens_predict(ens_mat.ens, word_counts, raw_tweets);
+Y_hat_ens = ens_predict(word_counts, raw_tweets);
 
 Y_hat = (Y_hat_bag + Y_hat_ens + Y_hat_svm) > 1.5;
