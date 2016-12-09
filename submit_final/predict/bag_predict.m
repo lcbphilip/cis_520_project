@@ -1,6 +1,8 @@
-function Y_hat = bag_predict(model, X_test, tweets_test)
+function Y_hat = bag_predict(X_test, tweets_test)
 
 addpath util
+model = load('models/bag.mat');
+model = model.bag;
 
 hashtags = count_hashtags(tweets_test);
 
