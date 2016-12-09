@@ -1,4 +1,3 @@
-function Y_hat = knn_predict(X_test)
-knn = load('models/knn.mat');
-knn = knn.knn;
-Y_hat = predict(knn, double(X_test > 0));
+function Y_hat = knn_predict(model, X_test)
+
+Y_hat = predict(model, double(X_test > 0));
